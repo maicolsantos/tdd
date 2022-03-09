@@ -1,0 +1,14 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/maicolsantos/tdd.git",
+  "author": "Maicol Santos",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "test": "yarn jest --watchAll"
+  }
+}
