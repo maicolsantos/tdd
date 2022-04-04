@@ -1,4 +1,4 @@
 Rules
-  ☐ Should return total value of products
-  ☐ Should return discount value of product
-  ☐ Should return total value of discount products
+  ☐ Deve retornar o valor total dos produtos
+  ☐ Deve retornar o valor do produto com desconto
+  ☐ Deve retornar o valor total dos produtos com descontos

@@ -1,11 +1,11 @@
 module.exports = {
   sum: (list) => {
-    return list.reduce((total, item) => {
+    return list.reduce((accumulated, item) => {
       if (item.discount) {
-        return total + (item.price - item.discount)
+        return accumulated + (item.price - item.discount)
       }
 
-      return total + item.price
+      return accumulated + item.price
     }, 0)
   }
 }
